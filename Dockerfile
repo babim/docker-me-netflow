@@ -1,6 +1,6 @@
-FROM babim/oraclelinuxbase:7
-ENV SOFT	KeyManager
-ENV EDITTION	pro
+FROM babim/centosbase:7-x86
+ENV SOFT	NetFlow
+ENV EDITTION	essential
 ENV SOFT_HOME	/opt/ManageEngine/${SOFT}
 
 # install depend
