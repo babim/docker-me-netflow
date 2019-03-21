@@ -7,7 +7,7 @@ docker run --detach --publish 8060:8060 babim/netflow:latest
 ```
 ```
 volume:
-/opt/ManageEngine/KeyManager
+/opt/ManageEngine/OpManager
 port:
 8060 9996 9996/udp
 ```
