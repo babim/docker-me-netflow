@@ -1,6 +1,6 @@
 FROM babim/oraclelinuxbase:7
 ENV SOFT	NetFlow
-ENV EDITTION	essential
+ENV EDITTION	free
 ENV SOFT_HOME	/opt/ManageEngine/${SOFT}
 
 # install depend
