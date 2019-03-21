@@ -1,7 +1,7 @@
 FROM babim/centosbase:7-x86
 ENV SOFT	NetFlow
 ENV EDITTION	essential
-ENV SOFT_HOME	/opt/ManageEngine/${SOFT}
+ENV SOFT_HOME	/opt/ManageEngine/OpManager
 
 # install depend
 RUN yum install wget -y
