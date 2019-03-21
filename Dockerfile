@@ -14,6 +14,6 @@ RUN wget --no-check-certificate -O - https://raw.githubusercontent.com/babim/doc
 
 VOLUME ["${SOFT_HOME}"]
 # Expose default HTTP connector port.
-EXPOSE 6565
+EXPOSE 8060 9996 9996/udp
 
 ENTRYPOINT ["/docker-entrypoint.sh"]
