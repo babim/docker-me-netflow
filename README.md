@@ -1,5 +1,4 @@
-# opmanager
-ManageEngine NetFlow Analyzer on docker
+# ManageEngine NetFlow Analyzer on docker
 
 To quickly get started running use the following command:
 ```bash
