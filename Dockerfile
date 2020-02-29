@@ -3,7 +3,6 @@ ENV SOFT	NetFlow
 ENV EDITTION	enterprise
 ENV SOFT_OPT	/opt/ManageEngine
 ENV SOFT_HOME	${SOFT_OPT}/${SOFT}${SOFTSUB}
-
 ENV MACHINE_TYPE x86
 
 # download option
